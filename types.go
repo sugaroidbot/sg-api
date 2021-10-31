@@ -11,6 +11,6 @@ type Instance struct {
 
 type WsConn struct {
 	Id uuid.UUID
-	conn websocket.Conn
+	conn *websocket.Conn
 }
 
